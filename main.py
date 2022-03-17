@@ -14,6 +14,6 @@ env.reset()
 rewards = qLearning(env, 0.2, 0.9, 0.8, 0, 5000)
 
 #Run plot rewards 
-affichae(rewards)
+affichage(rewards)
 
 
