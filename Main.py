@@ -1,8 +1,7 @@
 import numpy as np
 import gym
 import matplotlib.pyplot as plt
-
-
+from 
 # Import and initialize Mountain Car Environment
 env = gym.make('MountainCar-v0')
 env.reset()
