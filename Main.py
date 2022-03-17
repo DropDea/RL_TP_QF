@@ -1,8 +1,9 @@
-import numpy as np
+#Import Package
 import gym
-import matplotlib.pyplot as plt
-from QLearningFunction.py import QLearning
 
+#Import fonction 
+from QLearningFunction.py import QLearning
+from PlotFunction.py import P
 
 # Import and initialize Mountain Car Environment
 env = gym.make('MountainCar-v0')
