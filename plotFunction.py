@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def Plt (rewards):
+def affichage(rewards):
   
   plt.plot(100*(np.arange(len(rewards)) + 1), rewards)
   plt.xlabel('Episodes')
